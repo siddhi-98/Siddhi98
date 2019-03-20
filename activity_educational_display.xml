@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lbluebg"
+    tools:context=".EducationalDisplay">
+
+    <TextView
+        android:id="@+id/idtv"
+        android:layout_width="101dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/designtv"
+        android:layout_marginBottom="48dp"
+        android:text="Id :"
+        android:textAlignment="textEnd"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/enddtv"
+        android:layout_width="117dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/idtv"
+        android:layout_marginBottom="113dp"
+        android:layout_marginStart="-16dp"
+        android:text="End Year :"
+        android:textAlignment="textEnd"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/startdtv"
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/idtv"
+        android:layout_marginBottom="177dp"
+        android:layout_marginStart="-22dp"
+        android:text="Start Year :"
+        android:textAlignment="textEnd"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/loctv"
+        android:layout_width="101dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/idtv"
+        android:layout_marginTop="221dp"
+        android:text="Location :"
+        android:textAlignment="textEnd"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/orgtv"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/idtv"
+        android:layout_marginStart="-41dp"
+        android:layout_marginTop="159dp"
+        android:text="Organisation :"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/designtv"
+        android:layout_width="101dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/getdesigtv"
+        android:layout_marginStart="78dp"
+        android:text="Degree :"
+        android:textAlignment="textEnd"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/getidtv"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/getdesigtv"
+        android:layout_alignTop="@+id/idtv"
+        android:textAlignment="viewStart"
+        android:textColor="#132286"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/getendytv"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/getdesigtv"
+        android:layout_alignTop="@+id/enddtv"
+        android:textAlignment="viewStart"
+        android:textColor="#132286"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/getstytv"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/getdesigtv"
+        android:layout_alignTop="@+id/startdtv"
+        android:textAlignment="viewStart"
+        android:textColor="#132286"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/getloctv"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/getdesigtv"
+        android:layout_alignTop="@+id/loctv"
+        android:textAlignment="viewStart"
+        android:textColor="#132286"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/getorgtv"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_alignStart="@+id/getdesigtv"
+        android:layout_alignTop="@+id/orgtv"
+        android:textAlignment="viewStart"
+        android:textColor="#132286"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/getdesigtv"
+        android:layout_width="158dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="92dp"
+        android:textAlignment="viewStart"
+        android:textColor="#132286"
+        android:textSize="23sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/eduicon" />
+
+
+</RelativeLayout>

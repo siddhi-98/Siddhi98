@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lbluebg"
+    tools:context=".ProfessionalDetailsActivity">
+
+    <TextView
+        android:id="@+id/etextview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/prof_layout"
+        android:layout_width="217dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Professional Details"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:ems="10"
+        android:hint="Start Date"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/endedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:ems="10"
+        android:hint="End Date"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/orgedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/designationedittext"
+        android:layout_marginTop="153dp"
+        android:ems="10"
+        android:hint="Organization"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/designationedittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:hint="Designation"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/prof_layout"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/round"
+        android:text="Save"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/savebutton"
+        android:layout_marginEnd="73dp"
+        android:background="@drawable/round"
+        android:text="update"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

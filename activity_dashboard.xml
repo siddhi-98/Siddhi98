@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lbluebg"
+    tools:context=".Dashboard">
+
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/round"
+        android:text="Update details"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/displaybtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/round"
+        android:text=" Display details"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/deletebtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/round"
+        android:text="Delete details"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/userimageView"
+        android:layout_width="172dp"
+        android:layout_height="169dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/usericon4" />
+</RelativeLayout>
